@@ -1,0 +1,271 @@
+/* Change only 'human' text, 'book a call' buttons, percentage numbers, and footer to blue */
+
+/* Make the 'human' text blue */
+.text-span {
+  color: #0353A4 !important;
+}
+
+/* Make 'book a call' buttons blue */
+.button.green._1,
+.button.green._2,
+.button.w-button {
+  background-color: #0353A4 !important;
+}
+
+.button.green._1:hover,
+.button.green._2:hover,
+.button.w-button:hover {
+  background-color: #023047 !important;
+}
+
+/* Make all percentage numbers blue */
+.text-block-16 {
+  color: #0353A4 !important;
+}
+
+/* Make footer blue with visible text */
+.section.footer {
+  background: linear-gradient(135deg, #023047 0%, #0353A4 100%) !important;
+  color: #fff !important;
+}
+
+.section.footer .text-block-3,
+.section.footer .text-block-4,
+.section.footer .text-block-5,
+.section.footer .link-2,
+.section.footer .link-3,
+.section.footer .link {
+  color: #fff !important;
+}
+
+.section.footer .link-2:hover,
+.section.footer .link-3:hover,
+.section.footer .link:hover {
+  color: #e0e0e0 !important;
+}
+
+/* Fix left side footer visibility */
+.section.footer .div-block-6._2.as,
+.section.footer .div-block-6._2.invith {
+  color: #fff !important;
+}
+
+/* Make "Why Choose NextMaze Tech?" section blue */
+.contact-info h3,
+h3[style*="color: #456441"],
+h4[style*="color: #456441"],
+h3[style*="#456441"],
+h4[style*="#456441"],
+h3[style*="color: '#456441'"],
+h4[style*="color: '#456441'"],
+.div-block-35.mini h3,
+.div-block-35.mini h4 {
+  color: #0353A4 !important;
+}
+
+/* Make "Get In Touch" and "Send us a message" blue */
+.contact-info h3,
+.contact-form h3 {
+  color: #0353A4 !important;
+}
+
+/* Make Login button blue - maintain original styling */
+.nav-link.but {
+  background-color: #0353A4 !important;
+  color: #fff !important;
+}
+
+.nav-link.but:hover {
+  background-color: #023047 !important;
+}
+
+/* Make specific feature text elements blue */
+.text-block-18 .bold-text,
+.text-block-18 .bold-text-1,
+.text-block-18 .bold-text-2,
+.text-block-18 .bold-text-3,
+.text-block-18 .bold-text-4 {
+  color: #0353A4 !important;
+}
+
+/* Change green text box backgrounds to blue */
+.text-block-18.green {
+  background-color: #0353A4 !important;
+}
+
+/* Change outer green containers to blue */
+.div-block-41.green._1,
+.div-block-41.green._1._22 {
+  background-color: #0353A4 !important;
+}
+
+/* Reduce hero text size to fit within white background */
+.text-block-2 {
+  font-size: 6vw !important;
+  line-height: 5.5vw !important;
+}
+
+/* Fix center image in AI, Cloud Architecture section - keep original layout but smaller image */
+.div-block-40.mini.efwd.asdasd.wef .image-19 {
+  max-width: 250px !important;
+  width: 250px !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 auto !important;
+  position: relative !important;
+  z-index: 10 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Move Interactive placement text a little more to the right */
+.div-block-41.green._1._22 {
+  margin-left: 30px !important;
+}
+
+/* Change bullet points color to blue in Cloud Solutions and AI Services sections */
+.div-block-50 {
+  background-color: #0353A4 !important;
+}
+
+/* Course card animations and styling */
+.course-card {
+  transition: all 0.3s ease;
+  transform: translateY(0);
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(3, 83, 164, 0.15) !important;
+}
+
+.course-image {
+  transition: transform 0.3s ease;
+}
+
+.course-image:hover {
+  transform: scale(1.05);
+}
+
+/* Category button animations */
+.category-btn {
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.category-btn:hover {
+  transform: scale(1.05);
+}
+
+.category-btn.active {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(3, 83, 164, 0.7); }
+  70% { box-shadow: 0 0 0 10px rgba(3, 83, 164, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(3, 83, 164, 0); }
+}
+
+/* Step number animation */
+.step-number {
+  animation: bounceIn 0.6s ease-in-out;
+}
+
+@keyframes bounceIn {
+  0% { transform: scale(0.3); opacity: 0; }
+  50% { transform: scale(1.05); opacity: 1; }
+  70% { transform: scale(0.9); }
+  100% { transform: scale(1); }
+}
+
+/* Smooth transitions for dynamic content */
+.course-content {
+  animation: fadeInUp 0.5s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Mobile Navigation Button Fixes */
+.menu-button.w-nav-button {
+  min-height: 44px !important;
+  min-width: 44px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  -webkit-tap-highlight-color: transparent !important;
+  touch-action: manipulation !important;
+}
+
+@media (max-width: 991px) {
+  .menu-button.w-nav-button {
+    display: flex !important;
+    position: relative !important;
+    z-index: 9999 !important;
+  }
+}
+
+/* Removed mobile Hero section constraints - back to previous state */
+
+/* Responsive image optimizations for Hero section */
+@media (max-width: 479px) {
+  .image-3 {
+    max-width: 100px !important;
+    height: auto !important;
+  }
+  
+  .div-block._2 .image-6 {
+    width: 45px !important;
+    top: 15% !important;
+    right: 12% !important;
+  }
+  
+  .div-block._2 .image-6._2 {
+    width: 35px !important;
+    top: 8% !important;
+    right: 8% !important;
+  }
+  
+  .div-block._2 .image-7 {
+    width: 30px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .image-3 {
+    max-width: 140px !important;
+    height: auto !important;
+  }
+  
+  .image-6 {
+    max-width: 250px !important;
+    height: auto !important;
+  }
+  
+  .image-6._2 {
+    max-width: 170px !important;
+    height: auto !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .image-3 {
+    max-width: 180px !important;
+    height: auto !important;
+  }
+  
+  .image-6 {
+    max-width: 320px !important;
+    height: auto !important;
+  }
+  
+  .image-6._2 {
+    max-width: 220px !important;
+    height: auto !important;
+  }
+}
+

@@ -1,0 +1,92 @@
+/* Simple animations that don't interfere with Webflow layout */
+
+/* Smooth transitions for interactive elements */
+.nav-link {
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #3b82f6;
+}
+
+.button {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Logo subtle pulse */
+.brand .image {
+  transition: transform 0.3s ease;
+}
+
+.brand:hover .image {
+  transform: scale(1.05);
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Client logos scrolling animation */
+.div-block-33 {
+  animation: logoScroll 30s linear infinite;
+  display: flex;
+  white-space: nowrap;
+}
+
+@keyframes logoScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Image positioning is now handled by original webflow.css - removed overrides */
+
+/* Pause animation on hover */
+.div-block-31:hover .div-block-33 {
+  animation-play-state: paused;
+}
+
+/* Contact form styling */
+.contact-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #456441;
+  box-shadow: 0 0 0 3px rgba(69, 100, 65, 0.1);
+}
+
+.contact-form button:hover {
+  background-color: #5a7a5a;
+  transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+    padding: 40px 20px;
+  }
+  
+  .contact-form input[type="text"]:nth-of-type(1),
+  .contact-form input[type="text"]:nth-of-type(2) {
+    grid-column: 1;
+  }
+  
+  .contact-form > form > div:first-child {
+    grid-template-columns: 1fr;
+  }
+}

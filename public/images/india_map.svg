@@ -1,0 +1,131 @@
+<svg width="400" height="500" viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- India mainland outline with proper geographical boundaries -->
+  <path d="M 150 80
+           L 160 60
+           L 180 50 
+           L 200 45
+           L 220 50
+           L 240 55
+           L 260 65
+           L 275 75
+           L 285 90
+           L 290 105
+           L 295 120
+           L 300 140
+           L 305 160
+           L 310 180
+           L 315 200
+           L 318 220
+           L 320 240
+           L 322 260
+           L 320 280
+           L 315 300
+           L 310 320
+           L 300 340
+           L 285 360
+           L 270 375
+           L 250 385
+           L 230 390
+           L 210 395
+           L 190 400
+           L 170 395
+           L 150 385
+           L 135 370
+           L 125 350
+           L 120 330
+           L 115 310
+           L 110 290
+           L 105 270
+           L 100 250
+           L 95 230
+           L 90 210
+           L 85 190
+           L 80 170
+           L 75 150
+           L 80 130
+           L 90 115
+           L 105 105
+           L 120 95
+           L 135 85
+           L 150 80 Z" 
+           fill="#456441" 
+           stroke="#2d4229" 
+           stroke-width="2"/>
+  
+  <!-- Kashmir region (northern part) -->
+  <path d="M 180 50
+           L 190 35
+           L 205 30
+           L 220 35
+           L 235 45
+           L 240 55
+           L 220 50
+           L 200 45
+           L 180 50 Z"
+           fill="#456441" 
+           stroke="#2d4229" 
+           stroke-width="2"/>
+  
+  <!-- Gujarat peninsula (western coast) -->
+  <path d="M 85 190
+           L 70 200
+           L 60 220
+           L 65 240
+           L 75 250
+           L 90 245
+           L 95 230
+           L 90 210
+           L 85 190 Z"
+           fill="#456441" 
+           stroke="#2d4229" 
+           stroke-width="2"/>
+  
+  <!-- Tamil Nadu tip (southern point) -->
+  <path d="M 190 400
+           L 185 410
+           L 180 420
+           L 185 430
+           L 195 425
+           L 200 415
+           L 195 405
+           L 190 400 Z"
+           fill="#456441" 
+           stroke="#2d4229" 
+           stroke-width="2"/>
+  
+  <!-- Andaman and Nicobar Islands -->
+  <circle cx="350" cy="300" r="3" fill="#456441" stroke="#2d4229" stroke-width="1"/>
+  <circle cx="355" cy="320" r="2" fill="#456441" stroke="#2d4229" stroke-width="1"/>
+  <circle cx="360" cy="340" r="2" fill="#456441" stroke="#2d4229" stroke-width="1"/>
+  
+  <!-- Lakshadweep Islands -->
+  <circle cx="50" cy="280" r="2" fill="#456441" stroke="#2d4229" stroke-width="1"/>
+  <circle cx="45" cy="290" r="1.5" fill="#456441" stroke="#2d4229" stroke-width="1"/>
+  
+  <!-- Major cities with proper locations -->
+  <circle cx="130" cy="260" r="4" fill="#FF6B35" stroke="white" stroke-width="1"/>
+  <text x="135" y="255" font-family="Arial" font-size="10" fill="#333" font-weight="bold">Mumbai</text>
+  
+  <circle cx="200" cy="130" r="4" fill="#FF6B35" stroke="white" stroke-width="1"/>
+  <text x="205" y="125" font-family="Arial" font-size="10" fill="#333" font-weight="bold">Delhi</text>
+  
+  <circle cx="245" cy="320" r="4" fill="#FF6B35" stroke="white" stroke-width="1"/>
+  <text x="250" y="315" font-family="Arial" font-size="10" fill="#333" font-weight="bold">Bangalore</text>
+  
+  <circle cx="215" cy="360" r="4" fill="#FF6B35" stroke="white" stroke-width="1"/>
+  <text x="220" y="355" font-family="Arial" font-size="10" fill="#333" font-weight="bold">Chennai</text>
+  
+  <circle cx="220" cy="280" r="4" fill="#FF6B35" stroke="white" stroke-width="1"/>
+  <text x="225" y="275" font-family="Arial" font-size="10" fill="#333" font-weight="bold">Hyderabad</text>
+  
+  <circle cx="270" cy="200" r="4" fill="#FF6B35" stroke="white" stroke-width="1"/>
+  <text x="275" y="195" font-family="Arial" font-size="10" fill="#333" font-weight="bold">Kolkata</text>
+  
+  <!-- Connecting network lines -->
+  <path d="M 130 260 Q 165 195 200 130" stroke="#FF6B35" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M 200 130 Q 235 205 270 200" stroke="#FF6B35" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M 200 130 Q 210 205 220 280" stroke="#FF6B35" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M 220 280 Q 232 300 245 320" stroke="#FF6B35" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M 245 320 Q 230 340 215 360" stroke="#FF6B35" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M 130 260 Q 175 320 245 320" stroke="#FF6B35" stroke-width="2" fill="none" opacity="0.4"/>
+</svg>

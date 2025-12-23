@@ -1,0 +1,126 @@
+/* Override page colors to match NextMaze logo blue theme */
+
+/* Replace all green colors with blue theme */
+:root {
+  --nextmaze-primary: #0353A4;
+  --nextmaze-secondary: #023047;
+  --nextmaze-light: #4A90E2;
+}
+
+/* Update text-span (highlight) colors */
+.text-span {
+  color: var(--nextmaze-primary) !important;
+}
+
+/* Update button colors */
+.button.green,
+.button.green._1,
+.button.green._2 {
+  background-color: var(--nextmaze-primary) !important;
+}
+
+.button.green:hover,
+.button.green._1:hover,
+.button.green._2:hover {
+  background-color: var(--nextmaze-secondary) !important;
+}
+
+.button.w-button {
+  background-color: var(--nextmaze-primary) !important;
+}
+
+.button.w-button:hover {
+  background-color: var(--nextmaze-secondary) !important;
+}
+
+/* Update contact form styling */
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  border-color: var(--nextmaze-primary) !important;
+  box-shadow: 0 0 0 3px rgba(3, 83, 164, 0.1) !important;
+}
+
+.contact-form button {
+  background-color: var(--nextmaze-primary) !important;
+}
+
+.contact-form button:hover {
+  background-color: var(--nextmaze-secondary) !important;
+}
+
+/* Update "Why Choose NextMaze Tech" section colors */
+h3[style*="#456441"],
+h4[style*="#456441"] {
+  color: var(--nextmaze-primary) !important;
+}
+
+/* Update contact section heading colors */
+.contact-info h3 {
+  color: var(--nextmaze-primary) !important;
+}
+
+/* Update any green background elements */
+.div-block-41.green._1 .text-block-18.green {
+  color: white !important;
+  background-color: var(--nextmaze-primary) !important;
+  padding: 10px 15px !important;
+  border-radius: 5px !important;
+  font-weight: bold !important;
+}
+
+/* Make sure green text boxes are visible */
+.text-block-18.green {
+  color: white !important;
+  background-color: var(--nextmaze-primary) !important;
+  padding: 10px 15px !important;
+  border-radius: 5px !important;
+  font-weight: bold !important;
+}
+
+/* Update link colors */
+.bl {
+  color: var(--nextmaze-primary) !important;
+}
+
+.bl:hover {
+  color: var(--nextmaze-secondary) !important;
+}
+
+/* Update any remaining green colors in animations */
+.nav-link:hover {
+  color: var(--nextmaze-primary) !important;
+}
+
+.button:hover {
+  box-shadow: 0 5px 15px rgba(3, 83, 164, 0.2) !important;
+}
+
+/* Update client logo animation colors if needed */
+.div-block-33 {
+  --brand-color: var(--nextmaze-primary);
+}
+
+/* Update background colors to blue theme */
+body {
+  background-color: #f8faff !important;
+}
+
+/* Update section backgrounds */
+.section.head {
+  background: linear-gradient(135deg, #0353A4 0%, #4A90E2 100%) !important;
+}
+
+.section.social {
+  background-color: #f0f5ff !important;
+}
+
+/* Update footer to blue theme */
+.section.footer {
+  background: linear-gradient(135deg, #023047 0%, #0353A4 100%) !important;
+}
+
+/* Update green-up dividers to blue */
+.green-up {
+  background: linear-gradient(135deg, #0353A4, #4A90E2) !important;
+}
